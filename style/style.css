@@ -1,0 +1,100 @@
+#navbar1-fluid{
+    background-color: black!important;
+}
+
+#navbar1-container{
+    background-color: black!important;
+}
+
+#navbar1nav{
+    background-color: black!important;
+}
+
+
+#navbar2-fluid{
+    background-color: #c47b0d!important;
+}
+
+#navbar2-container{
+    background-color: #c47b0d!important;
+}
+
+#navbar2nav{
+    background-color: #c47b0d!important;
+}
+
+
+#reslogo{
+    display: none;
+}
+
+
+.az{
+    display: none;
+}
+
+
+/* Style the submit button */
+form.example button {
+    width: 20%;
+    padding: 10px;
+    background: #e2941e;
+    border-color: #cc851a;
+    color: white;
+    font-size: 1.1rem;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: orange;
+  }
+
+  #navbar-tog span{
+    max-width: 100%;
+}
+
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(154, 13, 13, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: #9A0D0D;
+    border-radius: 0px;
+  } 
+
+
+@media screen and (max-width:992px) {
+
+    #navbar1nav{
+        display: none;
+    }
+
+    #reslogo{
+        display: block;
+    }
+
+    
+.az{
+    display: block;
+}
+
+#hm{
+     font-size: 1.5em;
+}
+}
+
+
+@media screen and (max-width:992px){
+
+    #za{
+        display: none;
+    }
+
+    #zx{
+        display: none;
+    }
+
+}
